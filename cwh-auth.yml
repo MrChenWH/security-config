@@ -1,4 +1,4 @@
 mybatis:
-    basepackage: com.github.wxiaoqi.security.auth.mapper
+    basepackage: com.github.cwh.auth.server.mapper
     xmlLocation: classpath:mapper/**/*.xml
     mapper-locations: "classpath*:mapper/*.xml"
