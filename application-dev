@@ -1,0 +1,13 @@
+spring:
+    redis:
+        database: 1
+        host: ${REDIS_HOST:localhost}
+        port: ${REDIS_PORT:6379}
+        pool:
+            max-active: 20
+
+    rabbitmq:
+        host: ${RABBIT_MQ_HOST:192.168.56.105}
+        port:  ${RABBIT_MQ_PORT:5672}
+        username: cwh
+        password: 123456
